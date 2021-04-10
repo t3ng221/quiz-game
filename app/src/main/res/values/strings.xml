@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Second Quiz Game</string>
+    <string name="front">Which one is the largest sea beach in  the world?</string>
+    <string name="option1Text">Coxs Bazar</string>
+    <string name="option2Text"> Stockton Beach</string>
+    <string name="option3Text">Kuakata</string>
+    <string name="option4Text">Virginia Beach</string>
+    <string name="option5Text">Bali sea beach</string>
+    <string name="nextText">Next</string>
+    <string name="front2">Which company made android OS?</string>
+    <string name="secondOption1Text">Samsung</string>
+    <string name="secondOption2Text">Google</string>
+    <string name="secondOption3Text">HTC</string>
+    <string name="secondOption4Text">Microsoft</string>
+    <string name="secondOption5Text">Walton</string>
+    <string name="TryagainButtonText">Try Again</string>
+    <string name="submitText">Submit</string>
+</resources>
