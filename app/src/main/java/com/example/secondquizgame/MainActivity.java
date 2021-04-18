@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     RadioGroup myRadiogroup;
     RadioButton selectedRadiobutton;
     String selectedValue;
-    public static String quizmarks="I'm from BD";
+    public static String quizmarks="icc";
     int marks=0;
 
     @Override
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         int radioButtonid=myRadiogroup.getCheckedRadioButtonId();
         selectedRadiobutton=findViewById(radioButtonid);
         selectedValue=selectedRadiobutton.getText().toString();
-        if(selectedValue.equals("Coxs Bazar")){
+        if(selectedValue.equals("Shakib Al Hasan")){
             marks=5;
         }
         else

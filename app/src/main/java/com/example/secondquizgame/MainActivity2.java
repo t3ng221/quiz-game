@@ -7,13 +7,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.Toast;
 
 public class MainActivity2 extends AppCompatActivity {
     RadioGroup myRadiogroup;
     RadioButton selectedRadiobutton;
     String selectedValue;
-    public static String quizmarks2="I'm from BD";
-    int marks2=0;
+    public static String quizmarks="icc";
+    int marks=0;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,15 +28,15 @@ public class MainActivity2 extends AppCompatActivity {
         int radioButtonid=myRadiogroup.getCheckedRadioButtonId();
         selectedRadiobutton=findViewById(radioButtonid);
         selectedValue=selectedRadiobutton.getText().toString();
-        if(selectedValue.equals("Google")){
-            marks2=5;
+        if(selectedValue.equals("Virat Kohli")){
+            marks=5;
         }
         else
         {
-            marks2=0;
+            marks=0;
         }
         Intent myIntent=new Intent(MainActivity2.this,MainActivity3.class );
-        myIntent.putExtra(quizmarks2,marks2);
+        myIntent.putExtra(quizmarks,marks);
         startActivity(myIntent);
     }
 }

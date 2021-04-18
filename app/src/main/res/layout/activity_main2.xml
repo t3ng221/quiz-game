@@ -52,13 +52,7 @@
             android:text="@string/secondOption4Text"
             android:textSize="32dp"
             android:textStyle="bold"/>
-        <RadioButton
-            android:id="@+id/radioButton5ID"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/secondOption5Text"
-            android:textSize="32dp"
-            android:textStyle="bold"/>
+
 
     </RadioGroup>
     <Button

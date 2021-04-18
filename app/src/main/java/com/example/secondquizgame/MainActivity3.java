@@ -17,7 +17,7 @@ public class MainActivity3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
         Intent myGetIntent=getIntent();
-        result=myGetIntent.getIntExtra(MainActivity2.quizmarks2,0);
+        result=myGetIntent.getIntExtra(MainActivity2.quizmarks,0);
         result2=myGetIntent.getIntExtra(MainActivity.quizmarks,0);
         finalResult=result+result2;
         outputTextview=findViewById(R.id.outputTextviewID);
